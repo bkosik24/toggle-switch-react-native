@@ -83,6 +83,7 @@ export default class ToggleSwitch extends React.Component {
     animationSpeed: 300,
     useNativeDriver: true,
     circleColor: "white",
+    accessibilityRole: "checkbox",
   };
 
   offsetX = new Animated.Value(0);
@@ -135,6 +136,9 @@ export default class ToggleSwitch extends React.Component {
       labelStyle,
       label,
       icon,
+      accessibilityRole,
+      accessibilityLabel,
+      accessibilityHint,
     } = this.props;
 
     let toValue;
@@ -161,6 +165,9 @@ export default class ToggleSwitch extends React.Component {
           style={this.createToggleSwitchStyle()}
           activeOpacity={0.8}
           onPress={() => (disabled ? null : onToggle(!isOn))}
+          accessibilityRole={accessibilityRole}
+          accessibilityLabel={accessibilityLabel}
+          accessibilityHint={accessibilityHint}
         >
           <Animated.View style={this.createInsideCircleStyle()}>
             {icon}

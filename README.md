@@ -43,22 +43,25 @@ Inside your component's render method, or any other method returning views, use 
 
 ## API
 
-| Props          | Type                | Optional  | Default                | Description                                                               |
-| -------------- | ------------------- | --------- | ---------------------- | ------------------------------------------------------------------------- |
-| isOn           | Boolean             | true      | 'false'                | Default state, true for On, false for off                                 |
-| onColor        | String              | true      | '#634fc9'              | On Color                                                                  |
-| offColor       | String              | true      | '#ecf0f1'              | Off Color                                                                 |
-| label          | String              | true      |                        | Custom Label Text on the Left of the toggle Button                        |
-| labelStyle     | Object, StyleSheet  | true      | {marginHorizontal: 10} | Custom Styling for the Label Text View                                    |
-| thumbOnStyle   | Object, StyleSheet  | true      | null                   | Custom Styling for the On Thumb                                           |
-| thumbOffStyle  | Object, StyleSheet  | true      | null                   | Custom Styling for the Off Thumb                                          |
-| trackOnStyle   | Object, StyleSheet  | true      | null                   | Custom Styling for the On Track                                           |
-| trackOffStyle  | Object, StyleSheet  | true      | null                   | Custom Styling for the Off Track                                          |
-| size           | String              | true      | 'medium'               | Size of the toggle switch button ( 'large', 'medium', 'small')            |
-| icon           | React Component     | true      | null                   | Icon for the toggle. Can be any React Component considerate of size       |
-| onToggle       | Function Callback   | false     | none                   | Callback when the toggle switch component changes the state, params: isOn |
-| disabled       | Boolean             | true      | 'false'                | Disable toggling the component                                            |
-| animationSpeed | Number              | true      | 300                    | Speed of the toggle animation                                             |
+| Props              | Type                | Optional  | Default                | Description                                                                                                              |
+| ------------------ | ------------------- | --------- | ---------------------- | -----------------------------------------------------------------------------------------------------------------------  |
+| isOn               | Boolean             | true      | 'false'                | Default state, true for On, false for off                                                                                |
+| onColor            | String              | true      | '#634fc9'              | On Color                                                                                                                 |
+| offColor           | String              | true      | '#ecf0f1'              | Off Color                                                                                                                |
+| label              | String              | true      |                        | Custom Label Text on the Left of the toggle Button                                                                       |
+| labelStyle         | Object, StyleSheet  | true      | {marginHorizontal: 10} | Custom Styling for the Label Text View                                                                                   |
+| thumbOnStyle       | Object, StyleSheet  | true      | null                   | Custom Styling for the On Thumb                                                                                          |
+| thumbOffStyle      | Object, StyleSheet  | true      | null                   | Custom Styling for the Off Thumb                                                                                         |
+| trackOnStyle       | Object, StyleSheet  | true      | null                   | Custom Styling for the On Track                                                                                          |
+| trackOffStyle      | Object, StyleSheet  | true      | null                   | Custom Styling for the Off Track                                                                                         |
+| size               | String              | true      | 'medium'               | Size of the toggle switch button ( 'large', 'medium', 'small')                                                           |
+| icon               | React Component     | true      | null                   | Icon for the toggle. Can be any React Component considerate of size                                                      |
+| onToggle           | Function Callback   | false     | none                   | Callback when the toggle switch component changes the state, params: isOn                                                |
+| disabled           | Boolean             | true      | 'false'                | Disable toggling the component                                                                                           |
+| animationSpeed     | Number              | true      | 300                    | Speed of the toggle animation                                                                                            |
+| accessibilityLabel | String              | true      |                        | [Accessibility label](https://reactnative.dev/docs/accessibility#accessibilitylabel) for screen readers to read to user  |
+| accessibilityHint  | String              | true      |                        | [Accessibility hint](https://reactnative.dev/docs/accessibility#accessibilitylabel) for screen readers to read to user   |
+| accessibilityRole  | String              | true      |                        | [Accessibilty role](https://reactnative.dev/docs/accessibility#accessibilityrole) to define purpose of element to user   |
 
 ## Contribution
 
