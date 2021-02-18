@@ -60,7 +60,7 @@ Inside your component's render method, or any other method returning views, use 
 | disabled           | Boolean             | true      | 'false'                | Disable toggling the component                                                                                           |
 | animationSpeed     | Number              | true      | 300                    | Speed of the toggle animation                                                                                            |
 | accessibilityLabel | String              | true      |                        | [Accessibility label](https://reactnative.dev/docs/accessibility#accessibilitylabel) for screen readers to read to user  |
-| accessibilityHint  | String              | true      |                        | [Accessibility hint](https://reactnative.dev/docs/accessibility#accessibilitylabel) for screen readers to read to user   |
+| accessibilityHint  | String              | true      |                        | [Accessibility hint](https://reactnative.dev/docs/accessibility#accessibilityhint) for screen readers to read to user    |
 | accessibilityRole  | String              | true      |                        | [Accessibilty role](https://reactnative.dev/docs/accessibility#accessibilityrole) to define purpose of element to user   |
 
 ## Contribution
